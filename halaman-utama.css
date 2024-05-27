@@ -1,0 +1,229 @@
+@font-face{
+    font-family: Josefin;
+    src: url(JosefinSans-Italic-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+}
+
+main{
+    display: grid;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(50px), 1fr);
+}
+
+/*----------------------------------11111111111------------------------------------------*/
+.navigasi{
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------------------------*/
+.judul-navigasi1 p{
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
+    font-family: Josefin;
+}
+
+/*-------------------------*/
+
+.container1{
+    height: 18px;
+    align-items: center;
+}
+
+/*-------------------------------------2222222222---------------------------------------*/
+.bagian1{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/blue-aesthetic-1920x1200-12656.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+    display: flow-root;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-position: center;
+}
+
+/*-------------------------*/
+.isi-konten{
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.dalam-konten{
+    height: auto;
+    width: 100%;
+    float: right;
+    overflow: hidden;
+}
+
+.isi-konten .borderan{
+    height: 100px;
+    width: 100%;
+    border-radius: 30px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.ke1{
+    overflow: hidden;
+}
+
+.konten{
+    background-color: aliceblue;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-self: right;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.konten h3{
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    font-family: Josefin;
+}
+
+.konten p{
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    font-family: Josefin;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.konten a{
+    color: black;
+    font-family: Josefin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*--------------------------------33333333333333--------------------------------------------*/
+.bagian2{
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+/*-------------------*/
+.judul-awal{
+    margin: 20px auto;
+}
+
+.judul-awal h1{
+    font-family: Josefin;
+    font-weight: bold;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 800;
+}
+
+/*-------------------*/
+
+.biodata {
+    display: flex;
+    flex-wrap: wrap; 
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    align-items: center;
+}
+
+.kanvas-foto {
+    width: 100px;
+    height: 130px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.informasi-data {
+    padding: 0;
+    margin-left: 10px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.gambar1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.biodata h1, .biodata h3, .biodata p {
+    font-family: Josefin;
+    margin: 0;
+}
+
+.biodata h1 {
+    font-size: 24px;
+}
+
+.biodata h3 {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .bagian1 {
+        height: auto;
+    }
+
+    .konten {
+        width: 80%;
+    }
+
+    .bagian2 {
+        margin: 20px;
+    }
+
+    .biodata {
+        flex-direction: column;
+    }
+
+    .biodata .kanvas-foto {
+        margin: 10px auto;
+    }
+
+    .biodata .informasi-data {
+        margin: 10px auto;
+    }
+}
