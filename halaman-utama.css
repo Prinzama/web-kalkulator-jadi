@@ -130,8 +130,9 @@ main{
     font-weight: bold;
 }
 
-.konten a:hover{
-    transform:scale(1.1);
+.konten a:hover {
+    transform: scale(1.05);
+    cursor: pointer ;
 }
 
 /*--------------------------------33333333333333--------------------------------------------*/
