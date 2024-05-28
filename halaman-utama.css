@@ -130,6 +130,10 @@ main{
     font-weight: bold;
 }
 
+.konten a:hover{
+    transition:scale(1.1)
+}
+
 /*--------------------------------33333333333333--------------------------------------------*/
 .bagian2{
     width: auto;
