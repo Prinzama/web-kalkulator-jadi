@@ -65,6 +65,10 @@ main{
     display: flex;
 }
 
+.isi-konten:hover {
+    transform: scale(1.05);
+}
+
 .dalam-konten{
     height: auto;
     width: 100%;
